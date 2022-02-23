@@ -7,3 +7,6 @@ You need to type npm install  on the terminal to install npm important packages 
 
 # second 
 create exceptions.log file in your project folder
+
+# third
+type npm start on your terminal in  your project folder
