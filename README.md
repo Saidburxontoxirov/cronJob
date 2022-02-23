@@ -5,5 +5,5 @@ When You use this project for your work, you need to create exceptions.log file 
 # first 
 You need to type npm install  on the terminal to install npm important packages in your project folder that you use
 
-#second 
+# second 
 create exceptions.log file in your project folder
