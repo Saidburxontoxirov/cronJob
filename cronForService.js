@@ -16,7 +16,7 @@ const job = new CronJob('* * * * * *', async function () {
         logger.info(response.data.message);
         //job.stop();
     } catch (error) {
-        logger.error(error.response.data.message + '-' + error.response.data.file + '-' + error.response.data.line);
+        logger.error(error.response?.data?.message + '-' + error.response?.data?.file + '-' + error.response?.data?.line);
     }
 }, null, true, process.env.TIME_ZONE);
 job.start();
