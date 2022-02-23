@@ -1,0 +1,19 @@
+{
+  "name": "cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon cronForService.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cron": "^1.8.2",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15",
+    "winston": "^3.6.0"
+  }
+}
